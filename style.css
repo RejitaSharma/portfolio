@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    display: block;
+    background-color: rgba(227, 228, 223, 0.692);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.pic img {
+    position: relative;
+    border-radius: 20px;
+    margin-left:18%;
+    margin-top:3%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgba(202, 160, 241, 0.534);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(16, 129, 120);
+    border-radius: 50px;
+    padding: 5px 15px;
+    transition: 0.2s;
+    margin: 0 5px;
+}
+
+nav ul li a:hover {
+    color: rgb(235, 130, 130);
+    background: white;
+    font-size: 1.02rem;
+}
+
+nav ul li a.active {
+    color: rgb(63, 122, 78);
+    background: white;
+}
+
+.logo {
+    margin-left: 5px;
+
+}
+
+.hamburger {
+    display: none;
+}
+
+.left {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    color: rgba(28, 18, 73, 0.966);
+}
+
+.rightSection img {
+    width: 100%;
+    height: 10%;
+}
+
+
+.leftSection h1 {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    color: rgb(109, 0, 18);
+    margin-top: -63%;
+    margin-left: 15%;
+}
+
+.pink {
+    color: rgb(201, 121, 57);
+}
+
+.blue {
+    color: rgb(73, 104, 45);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin-top: 30%;
+    margin-left: 10%;
+    height: 80vh;
+}
+
+.secondSection h1 {
+    color: #680404;
+    font-size: 1.9rem;
+}
+
+.secondSection .box1 {
+    margin-top: 3%;
+}
+
+.secondSection .box2 {
+    margin-top: -10%;
+    margin-left: 35%;
+    color: #b48225;
+}
+
+.thirdSection {
+    margin-top: -10%;
+    margin-left: 10%;
+    color: rgb(102, 17, 29);
+    font-size: 1rem;
+}
+
+.text-gray {
+    color: rgb(158, 190, 128);
+}
+
+.thirdSection h1 {
+    font-size: 2rem;
+    margin: 10px;
+
+}
+
+.thirdSection .bix {
+    background: rgb(206, 48, 48);
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.thirdSection .vertical {
+    height: 93px;
+    width: 1px;
+    background: rgb(156, 54, 54);
+    margin: 0 120px;
+}
+
+.vertical-text {
+    position: relative;
+    color: rgb(201, 127, 67);
+    top: 50px;
+    width: 150px;
+}
+
+.vertical-desc img {
+    position: relative;
+    border-radius: 20px;
+    top: 60px;
+    color: black;
+    width: 150px;
+    font-size: 9px;
+}
+
+hr {
+    color: #6b0404;
+    margin-top: 30%;
+    width: 100%;
+}
+
+.skill h1 {
+    margin-top: 10%;
+    color: #680404;
+    margin-left: 12%;
+    font-size: 2rem;
+}
+
+.skill .vibe1 {
+    margin-top: 0%;
+    margin-left: 12%;
+    width: 6%;
+    color: rgba(255, 146, 14, 0.274);
+}
+
+.vibe {
+    margin-top: 4%;
+    margin-left: 20%;
+    color: #b48225;
+}
+
+.brown {
+    color: rgb(15, 48, 48);
+}
+
+.robo {
+    width: 25%;
+    margin-left: 53%;
+    margin-top: -13%;
+}
+
+.red {
+    color: #00000056;
+}
+
+.container {
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 20%;
+    padding: 20px;
+    color: #680404;
+
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    z-index: 10;
+}
+
+.form-group input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 3px;
+    box-sizing: border-box;
+
+}
+
+.form-group1 {
+    margin-bottom: 15px;
+}
+
+.form-group1 label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group1 input {
+    width: 70%;
+    padding: 50px;
+    border: 1px solid;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 25%;
+    padding: 10px;
+    border: none;
+    color: #1d1313;
+    font-weight: bolder;
+    border-radius: 5px;
+    background-color: rgb(44, 150, 114);
+}
+
+.btn:hover {
+    color: bisque;
+    background-color: rgb(74, 78, 14);
+}
+
+footer {
+    background-color: rgba(189, 136, 238, 0.534);
+    color: rgba(82, 19, 19, 0.473);
+
+}
+
+.footer {
+    margin-top: 80px;
+    display: flex;
+    padding: 30px 152px;
+    justify-content: space-evenly;
+}
+
+.footer-first {
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer-second{
+    display:flex;
+}
+.footer ul {
+    list-style: none;
+    text-align: right;
+
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: rgb(92, 109, 102);
+    padding: 10px 20px;
+
+}
+
+.footer>div {
+    width: 223px;
+}
+
+.footer-fourth {
+    margin: 10px 40px;
+}
+
+footer .text-center {
+    text-align: center;
+    color: rgb(148, 151, 151);
+    padding: 12px 0;
+}
+
+@media screen and (max-width:1150px) {
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    nav {
+        text-align: center;
+        top: 0;
+        left: 0;
+
+    }
+}
